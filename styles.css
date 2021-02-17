@@ -1,0 +1,86 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+:root {
+	--grid-padding: 10px;
+	--main-bg-dark-color:	#24292e;
+	--main-color: #d73a49;
+	--main-font: 'Poppins', sans-serif;
+
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+	
+}
+#container {
+	background-color: var(--main-bg-dark-color);
+	color: white;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+header {
+	font-family: var(--main-font);
+	font-weight: bold;
+	width: fit-content;
+}
+
+#content-box {
+	width: 60%;
+	margin: auto;
+}
+.response-box {
+	font-family: var(--main-font);
+	font-weight: normal;
+	padding: 20px;
+	margin: 10px;
+	border-radius: 1px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	color: white;
+	background-color: var(--main-color);
+}
+
+
+
+.task-button {
+	border: none;
+	cursor: pointer;	
+	width: 90%;
+	height: 90%;
+	font-weight: bold;
+	font-size: 20px;
+	transition: 0.3s;
+}
+
+.title {
+	background:none;
+
+
+	color: white;
+	box-shadow: none;
+}
+
+
+
+button:hover {
+	filter: brightness(80%);
+}
+
+button:focus {
+	border: none;
+	outline: none;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
