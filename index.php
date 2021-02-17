@@ -13,7 +13,7 @@
 	<div id="container">
 		<div id="content-box">
 			<header>
-				🌊 LexisNexis Task
+				🌊 LexisNexis
 			</header>
 			<div id="response-box" class="response-box">
 				<?php
